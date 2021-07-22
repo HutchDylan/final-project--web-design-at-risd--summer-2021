@@ -6,7 +6,10 @@ header {
   font-family: 'Righteous', cursive;
   font-size: 200%;
   color: lightblue;
-  text-align: center;
+  text-align: right;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 h1,
@@ -18,7 +21,11 @@ p {
 }
 
 nav {
-  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  text-align: right;
+  font-size: 125%;
 }
 
 a {
@@ -39,4 +46,7 @@ a:active {
   text-decoration: underline;
   text-decoration-style: double;
   text-decoration-color: lightblue;
+a:hover {
+  text-decoration: overline;
+  text-decoration-style: solid;
 }
