@@ -15,12 +15,22 @@ p {
   line-height: 1.5;
 }
 
-li,
-ul,
-nav {
-text-decoration: none;
-font-family: 'Righteous', cursive;
-text-align: center;
-line-height: 1.5;
-color: lightblue;
+a {
+  font-family: 'Righteous', cursive;
+  color: white;
+  line-height: 1.5;
+}
+
+ a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: lightblue;
 }
