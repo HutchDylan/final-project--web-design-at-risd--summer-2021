@@ -8,8 +8,19 @@ header {
   color: lightblue;
 }
 
-h1, p {
+h1,
+p {
   font-family: 'Montserrat', sans-serif;
   color: white;
   line-height: 1.5;
+}
+
+li,
+ul,
+nav {
+text-decoration: none;
+font-family: 'Righteous', cursive;
+text-align: center;
+line-height: 1.5;
+color: lightblue;
 }
