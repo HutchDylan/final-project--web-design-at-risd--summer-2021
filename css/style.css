@@ -42,10 +42,6 @@ a:visited {
   color: white;
 }
 
-a:active {
-  text-decoration: underline;
-  text-decoration-style: double;
-  text-decoration-color: lightblue;
 a:hover {
   text-decoration: overline;
   text-decoration-style: solid;
