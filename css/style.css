@@ -1,0 +1,15 @@
+html {
+  background-color: teal;
+}
+
+header {
+  font-family: 'Righteous', cursive;
+  font-size: 200%;
+  color: lightblue;
+}
+
+h1, p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  line-height: 1.5;
+}
