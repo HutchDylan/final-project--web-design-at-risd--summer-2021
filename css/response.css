@@ -1,5 +1,5 @@
 html {
-  transition: 500ms;
+  transition: 1s;
 }
 
 html::before {
@@ -9,7 +9,7 @@ html::before {
   padding: 20px;
 }
 
-@media (min-width: 400px) and (max-width: 699px) {
+@media (min-width: 320px) and (max-width: 799px) {
   html {
     background-color: orange;
   }
@@ -51,7 +51,7 @@ html::before {
   }
 }
 
-@media (min-width: 700px) and (max-width: 899px) {
+@media (min-width: 800px) and (max-width: 999px) {
   html {
     background-color: salmon;
   }
@@ -75,6 +75,10 @@ html::before {
   }
 
   #about {
+    color: purple;
+  }
+
+  #home {
     color: purple;
   }
 
@@ -92,7 +96,7 @@ html::before {
   }
 }
 
-@media (min-width: 900px) and (max-width: 1199px) {
+@media (min-width: 1000px) and (max-width: 1199px) {
   html {
     background-color: darkred;
   }
@@ -118,6 +122,10 @@ html::before {
   }
 
   #about {
+    color: salmon;
+  }
+
+  #home {
     color: salmon;
   }
 
@@ -160,6 +168,10 @@ html::before {
   }
 
   #about {
+    color: white;
+  }
+
+  #home {
     color: white;
   }
 
