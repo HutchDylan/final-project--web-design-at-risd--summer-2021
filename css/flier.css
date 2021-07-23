@@ -1,10 +1,10 @@
 .flier > * {
   animation: fly 50s linear infinite;
-  bottom: 0;
-  right: 0;
+  top: 0;
+  left: 0;
   transform: translateX(-120%) translateY(-120%) rotateZ(0);
   position: fixed;
-  animation-delay: .75s;
+  animation-delay: 1s;
   z-index: 999999;
 }
 
@@ -13,29 +13,188 @@
   98.001%,
   0% {
     display: block;
-    transform: translateX(-175%) translateY(100vh) rotateZ(10deg);}
+    transform: translateX(-200%) translateY(100vh) rotateZ(0deg);}
 
   15% {
-    transform: translateX(100vw) translateY(-100%) rotateZ(80deg);}
+    transform: translateX(100vw) translateY(-100%) rotateZ(180deg);}
 
   15.001%,
   18% {
-    transform: translateX(200vw) translateY(-30%) rotateZ(0deg);}
+    transform: translateX(100vw) translateY(-30%) rotateZ(0deg);}
 
   40% {
-    transform: translateX(-200%) translateY(30vh) rotateZ(-180deg);}
+    transform: translateX(-200%) translateY(3vh) rotateZ(-180deg);}
 
   40.001%,
   43% {
     transform: translateX(-200%) translateY(-100%) rotateZ(-180deg);}
 
   65% {
-    transform: translateX(100vw) translateY(50vh) rotateZ(80deg);}
+    transform: translateX(100vw) translateY(50vh) rotateZ(0deg);}
 
   65.001%,
   68% {
-    transform: translateX(200vw) translateY(-200%) rotateZ(180deg);}
+    transform: translateX(20vw) translateY(-200%) rotateZ(180deg);}
 
   95% {
-    transform: translateX(100vw) translateY(100vh) rotateZ(90deg);}
+    transform: translateX(10vw) translateY(100vh) rotateZ(0deg);}
+}
+
+#scroll-container {
+  background-color: darkred;
+  overflow: hidden;
+  height: 50px;
+}
+
+#scroll-text {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  font-size: 200%;
+  white-space: nowrap;
+  -moz-animation: my-animation 25s linear infinite;
+  -webkit-animation: my-animation 25s linear infinite;
+  animation: my-animation 25s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%); }
+
+  to {
+    -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%); }
+
+  to {
+    -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+#scroll-container-2 {
+  background-color: darkred;
+  overflow: hidden;
+  height: 50px;
+}
+
+#scroll-text-2 {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 200%;
+  white-space: nowrap;
+  -moz-animation: my-animation 25s linear infinite;
+  -webkit-animation: my-animation 25s linear infinite;
+  animation: my-animation 25s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%); }
+
+  to {
+    -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%); }
+
+  to {
+    -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+#scroll-container-3 {
+  background-color: darkred;
+  overflow: hidden;
+  height: 50px;
+}
+
+#scroll-text-3 {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 200%;
+  white-space: nowrap;
+  -moz-animation: my-animation 25s linear infinite;
+  -webkit-animation: my-animation 25s linear infinite;
+  animation: my-animation 25s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%); }
+
+  to {
+    -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%); }
+
+  to {
+    -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
 }
