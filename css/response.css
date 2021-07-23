@@ -1,0 +1,92 @@
+html {
+  transition: 500ms;
+}
+
+html::before {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+@media (min-width: 769px) {
+  html {
+    background-color: darkred;
+  }
+
+  header {
+    color: salmon;
+  }
+
+  a {
+    color: salmon;
+  }
+
+  #scroll-container {
+    background-color: salmon;
+  }
+
+  #scroll-container-2 {
+    background-color: salmon;
+  }
+
+  #scroll-container-3 {
+    background-color: salmon;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+ a:visited {
+    color: salmon;
+  }
+
+ a:hover {
+    text-decoration: overline;
+    text-decoration-style: solid;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  html {
+    background-color: salmon;
+  }
+  header {
+    color: purple;
+  }
+  a {
+    color: purple;
+  }
+
+  #scroll-container {
+    background-color: purple;
+  }
+
+  #scroll-container-2 {
+    background-color: purple;
+  }
+
+  #scroll-container-3 {
+    background-color: purple;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+ a:visited {
+    color: purple;
+  }
+
+ a:hover {
+    text-decoration: overline;
+    text-decoration-style: solid;
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    background-color: orange;
+  }
+}
