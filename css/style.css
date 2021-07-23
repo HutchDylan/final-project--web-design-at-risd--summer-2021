@@ -64,7 +64,6 @@ img {
 
 #about {
   font-family: Montserrat, sans-serif;
-  color: lightblue;
   font-size: 200%;
   max-height: 100%;
   width: auto;
@@ -73,9 +72,17 @@ img {
   padding-top: 100px;
 }
 
-.contact {
-  margin-top: 100px;
+#contact {
+  padding-top: 40px;
   text-align: center;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+#home {
+  font-family: Montserrat, sans-serif;
+  display: block;
+  margin-top: 40px;
+  text-align: center;
+  opacity: 50%;
 }
