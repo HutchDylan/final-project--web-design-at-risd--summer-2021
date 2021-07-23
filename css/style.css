@@ -3,25 +3,32 @@ html {
 }
 
 header {
-  font-family: 'Righteous', cursive;
+  font-family: Righteous, cursive;
   font-size: 200%;
-  color: lightblue;
+  color: salmon;
   text-align: right;
-  position: absolute;
-  top: 20px;
+  position: fixed;
+  bottom: 150px;
   right: 20px;
 }
 
 h1,
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   color: white;
   line-height: 1.5;
   text-align: center;
 }
 
+h2 {
+  font-family: Montserrat, sans-serif;
+  color: lightblue;
+  line-height: 1.5;
+  text-align: center;
+}
+
 nav {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
   right: 20px;
   text-align: right;
@@ -29,7 +36,7 @@ nav {
 }
 
 a {
-  font-family: 'Righteous', cursive;
+  font-family: Righteous, cursive;
   color: white;
   line-height: 1.5;
 }
@@ -45,4 +52,25 @@ a:visited {
 a:hover {
   text-decoration: overline;
   text-decoration-style: solid;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#about {
+  font-family: Montserrat, sans-serif;
+  color: lightblue;
+  font-size: 200%;
+  max-height: 100%;
+  width: auto;
+}
+
+.contact {
+  line-height: 1.25;
+  text-align: left;
 }
