@@ -9,7 +9,90 @@ html::before {
   padding: 20px;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 400px) and (max-width: 699px) {
+  html {
+    background-color: orange;
+  }
+
+  header {
+    color: darkred;
+  }
+  a {
+    color: darkred;
+  }
+
+  #scroll-container {
+    background-color: orange;
+  }
+
+  #scroll-container-2 {
+    background-color: orange;
+  }
+
+  #scroll-container-3 {
+    background-color: orange;
+  }
+
+  #about {
+    color: darkred;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+ a:visited {
+    color: darkred;
+  }
+
+ a:hover {
+    text-decoration: overline;
+    text-decoration-style: solid;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 899px) {
+  html {
+    background-color: salmon;
+  }
+  header {
+    color: purple;
+  }
+  a {
+    color: purple;
+  }
+
+  #scroll-container {
+    background-color: salmon;
+  }
+
+  #scroll-container-2 {
+    background-color: salmon;
+  }
+
+  #scroll-container-3 {
+    background-color: salmon;
+  }
+
+  #about {
+    color: purple;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+ a:visited {
+    color: purple;
+  }
+
+ a:hover {
+    text-decoration: overline;
+    text-decoration-style: solid;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
   html {
     background-color: darkred;
   }
@@ -23,15 +106,19 @@ html::before {
   }
 
   #scroll-container {
-    background-color: salmon;
+    background-color: darkred;
   }
 
   #scroll-container-2 {
-    background-color: salmon;
+    background-color: darkred;
   }
 
   #scroll-container-3 {
-    background-color: salmon;
+    background-color: darkred;
+  }
+
+  #about {
+    color: salmon;
   }
 
   a:link {
@@ -48,15 +135,16 @@ html::before {
   }
 }
 
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 1200px) and (max-width: 9999px) {
   html {
-    background-color: salmon;
+    background-color: purple;
   }
+
   header {
-    color: purple;
+    color: white;
   }
   a {
-    color: purple;
+    color: darkred;
   }
 
   #scroll-container {
@@ -71,22 +159,20 @@ html::before {
     background-color: purple;
   }
 
+  #about {
+    color: white;
+  }
+
   a:link {
     text-decoration: none;
   }
 
  a:visited {
-    color: purple;
+    color: white;
   }
 
  a:hover {
     text-decoration: overline;
     text-decoration-style: solid;
-  }
-}
-
-@media (max-width: 425px) {
-  html {
-    background-color: orange;
   }
 }

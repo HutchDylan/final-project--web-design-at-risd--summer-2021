@@ -68,9 +68,14 @@ img {
   font-size: 200%;
   max-height: 100%;
   width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 100px;
 }
 
 .contact {
-  line-height: 1.25;
-  text-align: left;
+  margin-top: 100px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
