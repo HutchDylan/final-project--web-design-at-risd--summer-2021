@@ -37,6 +37,10 @@ html::before {
     color: darkred;
   }
 
+  #home {
+    color: darkred;
+  }
+
   a:link {
     text-decoration: none;
   }
