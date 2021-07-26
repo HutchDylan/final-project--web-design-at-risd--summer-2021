@@ -1,5 +1,5 @@
 html {
-  transition: 1s;
+  transition: 1.5s;
 }
 
 html::before {
@@ -17,6 +17,7 @@ html::before {
   header {
     color: darkred;
   }
+
   a {
     color: darkred;
   }
@@ -41,15 +42,19 @@ html::before {
     color: darkred;
   }
 
+  #gallery {
+    color: darkred;
+  }
+
   a:link {
     text-decoration: none;
   }
 
- a:visited {
+  a:visited {
     color: darkred;
   }
 
- a:hover {
+  a:hover {
     text-decoration: overline;
     text-decoration-style: solid;
   }
@@ -59,9 +64,11 @@ html::before {
   html {
     background-color: salmon;
   }
+
   header {
     color: purple;
   }
+
   a {
     color: purple;
   }
@@ -86,15 +93,19 @@ html::before {
     color: purple;
   }
 
+  #gallery {
+    color: purple;
+  }
+
   a:link {
     text-decoration: none;
   }
 
- a:visited {
+  a:visited {
     color: purple;
   }
 
- a:hover {
+  a:hover {
     text-decoration: overline;
     text-decoration-style: solid;
   }
@@ -133,15 +144,19 @@ html::before {
     color: salmon;
   }
 
+  #gallery {
+    color: salmon;
+  }
+
   a:link {
     text-decoration: none;
   }
 
- a:visited {
+  a:visited {
     color: salmon;
   }
 
- a:hover {
+  a:hover {
     text-decoration: overline;
     text-decoration-style: solid;
   }
@@ -155,8 +170,9 @@ html::before {
   header {
     color: white;
   }
+
   a {
-    color: darkred;
+    color: white;
   }
 
   #scroll-container {
@@ -179,15 +195,19 @@ html::before {
     color: white;
   }
 
+  #gallery {
+    color: white;
+  }
+
   a:link {
     text-decoration: none;
   }
 
- a:visited {
+  a:visited {
     color: white;
   }
 
- a:hover {
+  a:hover {
     text-decoration: overline;
     text-decoration-style: solid;
   }
