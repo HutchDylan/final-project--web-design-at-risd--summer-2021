@@ -81,5 +81,11 @@ img {
 
 #home {
   text-align: center;
+
+#gallery {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  text-align: left;
   opacity: 75%;
 }
